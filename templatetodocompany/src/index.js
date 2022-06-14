@@ -6,6 +6,7 @@ import Header from './Header';
 import Primeirobanner from './SectionGiftCard/PrimeiroBanner';
 import MainServices from './MainServices/MainServices';
 import MainBannerOrder from './MainBannerOrder/MainBannerOrder';
+import GiftCardInstruction from './GiftCardInstruction/GiftCardInstruction';
 
 
 
@@ -16,6 +17,7 @@ root.render(
     <Primeirobanner/>
     <MainServices/>
     <MainBannerOrder/>
+    <GiftCardInstruction/>
   </React.StrictMode>
 );
 
