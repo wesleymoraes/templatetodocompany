@@ -18,9 +18,14 @@ const GiftCardInstruction = () => {
                 <ol className='GiftCardInstuctionLi'><b>3.</b> Insira o número e a senha do cartão presente.</ol>
             </div>
             <div className='ButtonGiftCardInstruction'>
-                <button className='btnconsultvalue'>Consultar Valor</button>
-                <button className='btnwheretouse'>Onde Usar</button>
+                <a href="https://shoulder.todocartoes.com.br/#/purchase">  <button className='btnconsultvalue'>Consultar Valor</button></a>
+              <a href="https://whts.co/shoulder"><button className='btnwheretouse'>Onde Usar</button></a>
+                
             </div>
+
+        <div className='corporatesales'>
+            <img src="../../assets/imagens/Bannervendascorporativas.webp" alt="" />
+        </div>
         </section>
     )
 }
