@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto', sans-serif;
+}
+@font-face {
+  font-family:'Margem-Medium.otf';
+  src: url('../../templatetodocompany/public/assets/fonts/margem-geometric-sans-demo/Margem-Medium.otf');
+}

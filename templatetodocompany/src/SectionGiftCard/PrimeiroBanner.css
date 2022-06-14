@@ -1,0 +1,104 @@
+
+
+.SectionGiftCard{
+    padding: 20px;
+    background-color: #828488;
+}
+
+.SectionGiftCardWrapper{
+    max-width: 81.25rem;
+    padding: 0;
+    margin: auto;
+}
+
+.title-SectionGiftCard{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.Img-SectionGiftCard{
+    margin: auto;
+display: flex;
+justify-content: flex-end;
+margin-top: -20.0rem;
+z-index: 1;
+}
+
+.first-title{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: .0475rem;
+    margin-bottom: 0.625rem;
+    z-index: 990;
+}
+
+.FontTokeStok{
+   font-family: arial;
+    font-size: 38px;
+    color: white;
+    margin-top: 10px;
+}
+
+.Textinfocard{
+font-family: arial;
+font-size: 16px;
+color: white;
+margin-top: 10px;
+}
+
+.btninfocard{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    flex-direction: column;
+    display: flex;
+    ;
+}
+.buttons-SectionGiftCard{
+    display: flex;
+    margin-top: 30px;
+
+
+}
+.buttons-SectionGiftCard1{
+    width: 13.4375rem;
+    border-radius: 0.25rem;
+    height: 2.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #568d64;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    font-size: 16px;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons-SectionGiftCard2{
+    width: 12.4375rem;
+    border-radius: 0.25rem;
+    height: 2.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 0px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-top: 0.625rem;
+    cursor: pointer;
+}
+
+.buttons-SectionGiftCard1:hover{
+    background-color: #568d64d0;
+}
+.buttons-SectionGiftCard2:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
