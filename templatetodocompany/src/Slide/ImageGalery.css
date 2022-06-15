@@ -1,0 +1,19 @@
+
+
+.image-gallery{
+    margin-top: 460px ;
+  }
+
+.image-gallery-play-button {
+    display: none;
+}
+.image-gallery-fullscreen-button{
+    display: none;
+}
+
+.image-gallery-right-nav{
+display: none;
+}
+.image-gallery-left-nav{
+    display: none;
+}

@@ -12,9 +12,10 @@ const MainBannerOrder = () => {
 
         <div className='bannerpedidos'>
             <a href="https://cartaopresente.tokstok.com.br/login">
-            <img src="../../assets/imagens/bannerpedidos.jpg" alt="" />
+            <img className='.imagem_desktop' src="../../assets/imagens/bannerpedidos.jpg" alt="" />
             </a>
         </div>
+        
     </section>
   )
 }

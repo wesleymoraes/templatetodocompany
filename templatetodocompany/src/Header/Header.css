@@ -1,6 +1,6 @@
-.Header{
+.Header {
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
     background-color: rgb(248, 249, 250);
     border-bottom: 1px solid rgb(223, 225, 227);
     padding: 10px 20px;
@@ -12,21 +12,24 @@
     justify-content: center;
     align-items: center;
 }
-.LogoHome{
+
+.LogoHome {
     display: flex;
     justify-content: space-between;
 }
+
 .Menu img.ArrowDown {
     width: 31px;
     height: 31px;
 }
-.NavBar{
+
+.NavBar {
     display: flex;
     justify-content: flex-end;
     margin-left: 350px;
 }
 
-.Box-Menu{
+.Box-Menu {
     height: 72px;
     display: flex;
     -webkit-box-align: center;
@@ -35,7 +38,7 @@
     justify-content: center;
 }
 
-.BtnMenu a{
+.BtnMenu a {
 
     text-transform: uppercase;
     grid-column: 1 / 6;
@@ -57,25 +60,26 @@
     color: white;
 }
 
-.BtnMenu a:hover{
+.BtnMenu a:hover {
     background-color: #3096308a;
 }
 
 
 
-li{
+li {
     color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: 700;
     transition: color 0.2s ease 0s;
     list-style: none;
-   margin-right: 16px;
+    margin-right: 16px;
 }
-.Menu a:hover{
+
+.Menu a:hover {
     color: #3096308a;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -93,8 +97,25 @@ a{
     height: 3px;
     margin-left: 6px;
 
-  }
-  .down {
+}
+
+.down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-  }
+}
+
+@media (max-width:414px) {
+    .Header {
+       max-width: 100%;
+       height: 70px;
+       background-color: yellow;
+    }
+    nav.Header {
+        width: 410px;
+    }
+  .Box-Menu{
+    max-width: 100px;
+    display: flex;
+    justify-content:flex-end;
+   }
+}

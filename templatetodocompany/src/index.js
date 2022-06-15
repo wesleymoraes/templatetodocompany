@@ -8,6 +8,8 @@ import MainServices from './MainServices/MainServices';
 import MainBannerOrder from './MainBannerOrder/MainBannerOrder';
 import GiftCardInstruction from './GiftCardInstruction/GiftCardInstruction';
 import Faq from './Faq/Faq';
+import Slide from './Slide/Slide';
+import SlideContent from './SlideContent/SlideContent';
 
 
 
@@ -20,6 +22,9 @@ root.render(
     <MainBannerOrder/>
     <GiftCardInstruction/>
     <Faq/>
+    <Slide/>
+    <SlideContent/>
+
   </React.StrictMode>
 );
 
