@@ -8,8 +8,8 @@ import MainServices from './MainServices/MainServices';
 import MainBannerOrder from './MainBannerOrder/MainBannerOrder';
 import GiftCardInstruction from './GiftCardInstruction/GiftCardInstruction';
 import Faq from './Faq/Faq';
-import Slide from './Slide/Slide';
 import SlideContent from './SlideContent/SlideContent';
+import Example from './Example';
 
 
 
@@ -21,8 +21,8 @@ root.render(
     <MainServices/>
     <MainBannerOrder/>
     <GiftCardInstruction/>
+    <Example/>
     <Faq/>
-    <Slide/>
     <SlideContent/>
 
   </React.StrictMode>
